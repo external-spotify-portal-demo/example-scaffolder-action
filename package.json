@@ -1,6 +1,6 @@
 {
   "name": "@internal/uuid-util",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Backstage scaffolder utilities",
   "main": "dist/index.cjs.js",
   "types": "dist/index.d.ts",
@@ -32,7 +32,8 @@
     "@backstage/plugin-scaffolder-node": "^0.4.11",
     "@backstage/types": "^1.1.1",
     "lodash": "^4.17.21",
-    "winston": "^3.2.1"
+    "winston": "^3.2.1",
+    "yaml": "^2.8.1"
   },
   "devDependencies": {
     "@backstage/backend-test-utils": "^1.1.0",

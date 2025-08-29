@@ -3779,6 +3779,7 @@ __metadata:
     lodash: "npm:^4.17.21"
     typescript: "npm:~5.3.0"
     winston: "npm:^3.2.1"
+    yaml: "npm:^2.8.1"
   languageName: unknown
   linkType: soft
 
@@ -20751,7 +20752,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yaml@npm:^2.0.0, yaml@npm:^2.2.2":
+"yaml@npm:^2.0.0, yaml@npm:^2.2.2, yaml@npm:^2.8.1":
   version: 2.8.1
   resolution: "yaml@npm:2.8.1"
   bin:
