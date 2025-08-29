@@ -1,0 +1,54 @@
+{
+  "name": "@internal/uuid-util",
+  "version": "0.0.5",
+  "description": "Backstage scaffolder utilities",
+  "main": "dist/index.cjs.js",
+  "types": "dist/index.d.ts",
+  "license": "Apache-2.0",
+  "publishConfig": {
+    "access": "public",
+    "main": "dist/index.cjs.js",
+    "types": "dist/index.d.ts",
+    "registry": "https://sandbox.spotifyportal.com/api/plugin-installer/registry/npm"
+  },
+  "backstage": {
+    "role": "backend-plugin-module",
+    "pluginId": "scaffolder",
+    "pluginPackage": "@backstage/plugin-scaffolder-backend"
+  },
+  "scripts": {
+    "start": "backstage-cli package start",
+    "build": "backstage-cli package build",
+    "lint": "backstage-cli package lint",
+    "test": "backstage-cli package test",
+    "tsc": "tsc",
+    "clean": "backstage-cli package clean",
+    "prepack": "backstage-cli package prepack",
+    "postpack": "backstage-cli package postpack",
+    "publish": "yarn npm publish"
+  },
+  "dependencies": {
+    "@backstage/backend-plugin-api": "^1.0.2",
+    "@backstage/plugin-scaffolder-node": "^0.4.11",
+    "@backstage/types": "^1.1.1",
+    "lodash": "^4.17.21",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@backstage/backend-test-utils": "^1.1.0",
+    "@backstage/cli": "^0.29.2",
+    "@types/lodash": "^4",
+    "typescript": "~5.3.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "typesVersions": {
+    "*": {
+      "index": [
+        "dist/index.d.ts"
+      ]
+    }
+  },
+  "packageManager": "yarn@4.9.3"
+}

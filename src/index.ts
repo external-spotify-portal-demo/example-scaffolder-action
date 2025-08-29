@@ -1,0 +1,1 @@
+export { scaffolderUtilsAction as default } from './module';
